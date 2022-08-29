@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Francois+One&family=Gulzar&family=Lato&family=Merriweather+Sans&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Roboto+Condensed&family=Short+Stack&family=Tiro+Kannada&family=Titillium+Web:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+  background: #fff;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav {
+  width: 20%;
+}
+
+.left-nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-nav ul li {
+  list-style: none;
+}
+
+.left-nav ul li i {
+  padding: 15px;
+}
+
+.mid-nav {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.search_box input {
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: beige;
+}
+
+.voice_search,
+.btn {
+  padding: 15px;
+  background: #f9f9f9;
+  height: 50px;
+}
+
+.right-nav {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+
+.create,
+.notification,
+.user {
+  font-size: 24px;
+}
+
+.main-div {
+  background: #f9f9f9;
+  height: 1800px;
+}
