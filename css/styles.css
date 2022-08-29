@@ -275,3 +275,35 @@ h3 {
   list-style: none;
   padding-right: 30px;
 }
+
+.right_main-div {
+  width: 40%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons p button {
+  border: 0.5px darkgray solid;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+p button :hover {
+  color: #fff;
+  background: #000;
+  transition: 0.5s ease-in-out;
+}
+
+.suggestions {
+  padding-top: 40px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
